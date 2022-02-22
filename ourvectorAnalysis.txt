@@ -1,0 +1,35 @@
+*********************************************************
+ourvector<c> stats:
+ # of vectors created:   9
+ # of elements inserted: 166
+ # of elements accessed: 2488
+*********************************************************
+*********************************************************
+ourvector<4data> stats:
+ # of vectors created:   1
+ # of elements inserted: 4
+ # of elements accessed: 2503
+*********************************************************
+*********************************************************
+ourvector<i> stats:
+ # of vectors created:   10
+ # of elements inserted: 48
+ # of elements accessed: 78
+*********************************************************
+
+
+First vector container is created at line 302 ourvector<int> repStr because this vector will store
+the longest repeated STR counts and will be later used to identify the person it belongs to. Second
+vector is created at line 303 ourvector<data> d. This vector of struct uses structs at line 17
+ourvector<char> str and at line 18 ourvector<int> counts to access these vectors for storing characters
+ of STRs and STR numbers. At line 179 ourvector<data> d is used to store information dissected from the
+ file about the database which includes the names and STR counts. At line 179 information is inserted
+ such as STR numbers and STR characters. At line 156 and line 140 contents of d vector are
+accessed and printed. At line 105 processDNA function, ourvector<int>& repStr stores the
+consecutive repeated Str, and here information about database is accessed from d vector. At
+line 68 contents are accessed and printed. At line 48 search function, str counts stored in
+ourvector<int> counts are compared with repStr vector to check whether the STR counts match. 
+At line 21 purpose is to check whether the vector container size is zero. 
+
+
+
